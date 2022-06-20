@@ -17,5 +17,5 @@ export default (app) => {
             docExpansion: 'none',
         },
     };
-    SwaggerModule.setup('swagger-api', app, document, options);
+    SwaggerModule.setup('posts-task/api/swagger-api', app, document, options);
 };
